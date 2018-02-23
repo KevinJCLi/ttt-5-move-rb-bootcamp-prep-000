@@ -14,3 +14,5 @@ end
 def move(board, index, tic_or_tac = "X")
   board[index] = tic_or_tac
 end
+
+display_board(board)
